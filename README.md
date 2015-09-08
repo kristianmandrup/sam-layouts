@@ -1,11 +1,12 @@
-CMS UI
-------
+SMA Prototype layouts
+---------------------
 
 ### Install
 
 First install dependencies using npm:
 
 -	jquery
+-	jade
 -	semantic-ui
 -	sortablejs
 
@@ -13,7 +14,7 @@ First install dependencies using npm:
 npm install
 ```
 
-For semantic-ui, please use default configuration when asked. Then build semantic-ui distribution files in `/semantic/dist`
+For semantic-ui, please use default configuration when asked (ie. just press *ENTER* at each step). Then build semantic-ui distribution files in`/semantic/dist`
 
 ```sh
 cd semantic
@@ -25,7 +26,11 @@ Now you should be ready to work on the page layouts. See the docs for guidance!
 
 ### Usage
 
-`open semantic/pages/cms.html`
+```
+gulp jade
+gulp watch
+open semantic/pages/home.html
+```
 
 ### Pages
 
