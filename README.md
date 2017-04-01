@@ -1,6 +1,8 @@
 SMA Prototype layouts
 ---------------------
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/sam-layouts.svg)](https://greenkeeper.io/)
+
 ### Install
 
 First install dependencies using npm:
